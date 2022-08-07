@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-color: rgb(255, 164, 107);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-size: 50px;   
+    color:steelblue; 
+    font-family: 'Pacifico';
+}
+
+
+hr{
+    border: 5px dotted steelblue; /* Cambia el estilo de la linea de hr. Sintaxis: tamaño de la linea, el tipo de linea, color*/
+}
+
+ul{
+    display: flex;  /*display flex se utiliza para poder modificar la lista*/ 
+    flex-direction: row;  /*flex direction cambia el estilo de la lista una vez que le pusimos el flex*/
+    list-style: none; /* list style cambia el estilo de la viañeta de la lista*/
+    font-family: "Press Start 2P";
+    font-size: 30px;
+}
+
+ul >li {
+    padding: 0px 0px 0px 50px;
+}
+
+ul > li >a{
+    text-decoration: none; /* Text-decoration cambia el estilo de una palabra en este caso quitamos el subrayado del link*/
+    color: darkslategray;
+}
+
+h4{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(75, 66, 179);
+    font-size: 40px;
+}
+.formulario{
+    text-align: center;
+}
+
+.Pie{
+    font-family: 'Pacifico';
+    font-size: 20px;   
+    color: rgb(75, 66, 179); 
+    text-align: right;
+    margin-right: 40px;
+}
